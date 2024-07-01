@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+    text-shadow: 2px 2px 8px white;
+
+
+}
+h3{
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 2px 2px 8px white;
+
+
+}
+button{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px white;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px white;
+}
+span{
+    color: red;
+}
