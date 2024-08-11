@@ -36,11 +36,12 @@ async function getUsers() {
         deleteButton.onclick = function(){
             if (confirm("Are you sure to delete user?") == true) {
                 deleteUser(element.email);
-            }
-        }
+            };
+        };
         mainDiv.appendChild(deleteButton);
 
         const divider = document.createElement("hr");
+
         mainDiv.appendChild(divider);
     }
 }
@@ -61,7 +62,7 @@ async function deleteUser(deleteEmail) {
         location.reload();
     } else {
         alert("user delete failed");
-    }
-}
+    };
+};
 
 getUsers();
