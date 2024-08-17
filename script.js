@@ -63,6 +63,6 @@ async function deleteUser(deleteEmail) {
     } else {
         alert("user delete failed");
     };
-};انت
+};
 
 getUsers();
